@@ -1,0 +1,38 @@
+h1, h5 {
+    text-align: center;
+    font-family: arial;
+}
+
+mark {
+    background-color: green;
+    color: yellow;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+body {
+    background-image: url("../img/fundo.png"); /* caminho da img a ser usada */
+    background-color: rgb(255, 255, 255); /* usa caso a img não esteja disponível */
+    background-position: center; /* centraliza a img */
+    background-repeat: no-repeat; /* não permite que a img seja repetida na página */
+    background-size: cover; /* redimensiona a img para cobrir toda a página */
+    text-align: center;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: rgb(224, 20, 20);
+  }
+
+  h4 {
+    text-align: right;
+}
